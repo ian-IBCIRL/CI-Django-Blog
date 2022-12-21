@@ -8,6 +8,10 @@ The last update to this file was: **December 21, 2022**
 
 ## Reminders
 
+To install django, `pip3 install 'django<4'`
+
+Use `python3 manage.py runserver` to launch web server
+
 To log into the Heroku toolbelt CLI:
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
@@ -24,7 +28,7 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**December 21 2022:** Initial readme
+**December 21 2022:** Initial readme and Django/Psycopg2 database setup
 
 ------
 
