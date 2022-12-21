@@ -18,12 +18,14 @@ Then we need to migrate the changes to the database etc with `python3 manage.py 
 
 Remember to update settings.py with all the env vars for secure access to Django and the Elephant DB in the database section
 
----
+To set up a app/database admin we need `python3 manage.py createsuperuser`
+
+###
 import os
 import dj_database_url
 if os.path.isfile('env.py'):
 import env
----
+###
 
 To log into the Heroku toolbelt CLI:
 
