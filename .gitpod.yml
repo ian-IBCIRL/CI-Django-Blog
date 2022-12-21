@@ -7,6 +7,7 @@ tasks:
 vscode:
   extensions:
     - ms-python.python
+    - ms-python.isort
     - formulahendry.auto-close-tag
     - eventyret.bootstrap-4-cdn-snippet
     - hookyqr.beautify
@@ -14,3 +15,4 @@ vscode:
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
+

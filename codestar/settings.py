@@ -28,15 +28,14 @@ TEMPLATES_DIR = (
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# Removed SECRET_KEY = 'django-insecure key replaced with 
-# env var one from env.py' 
+# Removed SECRET_KEY = 'django-insecure key replaced with
+# env var one from env.py'
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['ib-blog-codestar.herokuapp.com', 'localhost']
-
 
 # Application definition
 
