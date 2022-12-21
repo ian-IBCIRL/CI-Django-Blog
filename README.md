@@ -12,6 +12,19 @@ To install django, `pip3 install 'django<4'`
 
 Use `python3 manage.py runserver` to launch web server
 
+We add the app with `python3 manage.py startapp blog` for example
+
+Then we need to migrate the changes to the database etc with `python3 manage.py migrate`
+
+Remember to update settings.py with all the env vars for secure access to Django and the Elephant DB in the database section
+
+---
+import os
+import dj_database_url
+if os.path.isfile('env.py'):
+import env
+---
+
 To log into the Heroku toolbelt CLI:
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
