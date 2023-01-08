@@ -2,9 +2,9 @@
 
 Welcome!
 
-This is the initial project readme.
+This is the nearly complete blog project readme.
 
-The last update to this file was: **December 21, 2022**
+The last update to this file was: **Jan 8th, 2023**
 
 ## Reminders
 
@@ -44,6 +44,8 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
 **December 21 2022:** Initial readme and Django/Psycopg2 database setup
+
+**Jan 8th 2023:** Admin and user features enabled allowing viewing of posts and login/logout/signup
 
 ------
 
